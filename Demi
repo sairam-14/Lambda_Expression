@@ -1,0 +1,16 @@
+package com.lambda;
+
+public class Demi {
+
+	public static void main(String[] args) {
+      
+		Demo d=()->{
+			System.out.println("Welcome");
+		};
+		d.display();
+		
+		
+	}
+
+	
+}
