@@ -1,0 +1,7 @@
+package com.lambda;
+
+@FunctionalInterface
+public interface Even_Check {
+
+	void check(int a);
+}
