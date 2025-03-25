@@ -1,0 +1,7 @@
+package com.lambda;
+
+@FunctionalInterface
+public interface Calci {
+
+	void add(int a,int b);
+}
