@@ -1,0 +1,34 @@
+package com.lambda;
+
+import java.util.Scanner;
+
+public class Caluclator_Main {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		Caluclator sum = (int a, int b) -> {
+			return (a + b);
+		};
+		Caluclator sub = (int a, int b) -> {
+			return (a - b);
+		};
+		Caluclator mul = (int a, int b) -> {
+			return (a * b);
+		};
+		Caluclator div = (int a, int b) -> {
+			return (a / b);
+		};
+		System.out.println("ENter the num1");
+		int n1 = sc.nextInt();
+		System.out.println("Enter the num2");
+		int n2 = sc.nextInt();
+
+		System.out.println("Sum:" + sum.operation(n1, n2));
+		System.out.println("sub:" + sub.operation(n1, n2));
+		System.out.println("Mul:" + mul.operation(n1, n2));
+		System.out.println("Div:" + div.operation(n1, n2));
+	}
+
+}
