@@ -1,0 +1,21 @@
+package com.lambda;
+
+import java.util.Scanner;
+
+public class Cal_Main {
+
+	public static void main(String[] args) {
+   Scanner sc = new Scanner(System.in);
+   Calci c=(int a ,int b)->{
+	   
+	   System.out.println("Sum i:"+(a+b));
+   };
+   System.out.println("Enter the number");
+   int a1 =sc.nextInt();
+   System.out.println("Enter the second number");
+   int b1=sc.nextInt();
+   c.add(a1, b1);
+   
+	}
+
+}
